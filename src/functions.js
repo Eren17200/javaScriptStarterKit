@@ -13,7 +13,7 @@ let sayHello = ()=> {
     console.log("Hello World !");
 
 }
-
+ 
 sayHello();
 
 let sayHello2 = function  () { 
@@ -107,4 +107,4 @@ function addToCart4(x) {
     let {productName:newproductName, unitPrice:newUnitPrice,quentity:newQuentity} = {productName:"şeftali", unitPrice:1, quentity:50}
     console.log(newproductName)
     console.log(newUnitPrice)
-    console.log(newQuentity)
+    console.log(newQuentity) 
