@@ -18,7 +18,13 @@ console.log(userService.list())
 console.log(userService.getById(2))
 
 
-/*prototyping
+//prototyping
 let customer = { id: 1, firstName: "engin" }
 customer.lastName = "Demiroğ"
-console.log(customer.lastName)*/
+console.log(customer.lastName)
+
+console.log(".....................")
+
+userService.load()
+console.log(userService.customers)
+console.log(userService.employees)
