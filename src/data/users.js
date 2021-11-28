@@ -5,7 +5,7 @@ export const users = [
         id:1,
         firstName:"Engin",
         lastName:"demiroğ",
-        city:"Ankara",
+        //city:"Ankara",
         age : 36,
         creditCardNumber: "123456",
         type:"customer"
@@ -30,13 +30,22 @@ export const users = [
         type:"employee"
     },
     {
-        d:4,
+        id:4,
         firstName:"ebrar",
         lastName:"sonmez",
         city:"bursa",
         age : 5,
-        salary: 10000,
+        //salary: 10000,
         type:"employee"
+    },
+    {
+        d:5,
+        firstName:"kazım",
+        lastName:"kazı",
+        city:"van",
+        age : 20,
+        salary: 11500,
+        type:"employe"
     }
 
 ]
